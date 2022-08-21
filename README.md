@@ -1,4 +1,4 @@
-# APP Java - Firebase
+# Java - Firebase CRUD
 
 Application for dental laboratory management
 
