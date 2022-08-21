@@ -1,4 +1,4 @@
-# Dentes-Lab App
+# APP Java - Firebase
 
 Application for dental laboratory management
 
