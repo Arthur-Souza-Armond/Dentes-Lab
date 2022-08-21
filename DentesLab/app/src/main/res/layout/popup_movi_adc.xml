@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    android:layout_gravity="bottom|center"
+    android:layout_margin="10dp"
+    android:background="@drawable/frame_preto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Adcionar movimentações"
+                android:textColor="@color/Cor1"
+                android:textSize="22sp" />
+
+            <View
+                android:id="@+id/divider21"
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/ap_black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/background">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_nome_movi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome:"
+                    android:textColor="@color/Cor1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/background">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_data_movi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Data de vencimento:"
+                    android:textColor="@color/Cor1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/background">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_valor_movi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Valor da despesa:"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_salvar_movi"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/botao_arredondado"
+                android:text="Adcionar" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Clientes.AdcClienteActivity">
+
+    <TextView
+        android:id="@+id/txt_edit_novo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Novo Cliente"
+        android:textColor="@color/Cor1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_edit_novo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_nome_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_email_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_telefone_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telefone:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_endereco_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Endereço:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_cep_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="CEP:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_referencia_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ponto de referência:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/teste1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_nomesecretaria_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome secretári@:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/teste2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_telefonesecretaria_cliente_cadastro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telefone:"
+                    android:textColor="@color/Cor2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/background">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_area_atuacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Área de atuação:"
+                    android:textColor="@color/Cor1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearAdc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Cliente"
+                            android:textColor="@color/background" />
+
+                        <View
+                            android:id="@+id/divider25"
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/background" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Data"
+                            android:textColor="@color/background" />
+
+                        <View
+                            android:id="@+id/divider26"
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/background" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Valor"
+                            android:textColor="@color/Positivo" />
+
+                        <View
+                            android:id="@+id/divider27"
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/background" />
+                    </LinearLayout>
+
+                    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                        android:id="@+id/calendarViewC"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        ap:mcv_selectionColor="#00F"
+                        ap:mcv_showOtherDates="all"
+                        ap:mcv_tileSize="50dp" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_servicos_clienteC"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp" />
+
+                <Button
+                    android:id="@+id/btn_novoRelatorio"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/botao_arredondado"
+                    android:drawableRight="@drawable/ic_adcionar_24dp"
+                    android:padding="8dp"
+                    android:text="Relatório" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearTabela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tabela de valores:"
+                    android:textColor="@color/Cor1"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/divider28"
+                    android:layout_width="50dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/background" />
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_tabela_servicos"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <Button
+                    android:id="@+id/btn_adc_tabela_servicos"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/arredondado_adc"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/Positivo"
+                    android:textSize="26sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearAdcTabela"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/Cor5"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Adcionar Produto"
+                    android:textColor="@color/Cor1"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_NomeTabela_servico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nome:"
+                        android:textColor="@color/Cor1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_PrecoTabela_servico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Preco:"
+                        android:inputType="number"
+                        android:textColor="@color/Cor1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_salvarNova_Tabela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_circulado"
+                    android:text="Salvar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearPagamentos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pagamentos realizados"
+                    android:textColor="@color/Cor1"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <View
+                    android:id="@+id/divider42"
+                    android:layout_width="100dp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/Black" />
+
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                    android:id="@+id/calendarViewDataPagamentos"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    ap:mcv_selectionColor="#00F"
+                    ap:mcv_showOtherDates="all"
+                    ap:mcv_tileSize="50dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_pagamentosRealizados"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="35dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView96"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Total a pagar:"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_valorApagar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="."
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView94"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Total:"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_totalPagamentosMes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="."
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_abrirLinearPagamento"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arredondado_adc"
+                    android:text="+"
+                    android:textColor="@color/Positivo"
+                    android:textSize="26sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearPagamentoCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/Cor5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Adcionar pagamento"
+                        android:textColor="@color/Cor1"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:id="@+id/divider59"
+                        android:layout_width="100dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Black" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="25dp"
+                        android:textColorHint="@color/Cor2">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_valorPagamentoCliente"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Valor do pagamento"
+                            android:inputType="number" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                        android:id="@+id/calendarViewDataPagamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        ap:mcv_selectionColor="#00F"
+                        ap:mcv_showOtherDates="all"
+                        ap:mcv_tileSize="50dp" />
+
+                    <Button
+                        android:id="@+id/btn_SalvarPagamentoCliente"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="75dp"
+                        android:layout_marginBottom="50dp"
+                        android:background="@drawable/botao_arredondado"
+                        android:text="Salvar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_cadastrar_cliente_cadastro"
+                android:layout_width="200dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/botao_arredondado"
+                android:text="Cadastrar" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_edit_novo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

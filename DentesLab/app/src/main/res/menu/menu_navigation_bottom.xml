@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ic_entrada"
+        android:title="Entradas"
+        android:icon="@drawable/ic_adcionar_24dp"/>
+    <item android:id="@+id/ic_lab"
+        android:icon="@drawable/ic_trabalhos_24dp"
+        android:title="No laboratório"/>
+    <item android:id="@+id/ic_saida"
+        android:icon="@drawable/ic_saida_trabalhos_24dp"
+        android:title="Saída"/>
+
+</menu>

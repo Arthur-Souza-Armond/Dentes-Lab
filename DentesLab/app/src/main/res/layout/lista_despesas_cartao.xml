@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_nomeAdapterCartao"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Nome"
+        android:textColor="@color/textInput"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_valorAdapterCartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Data"
+            android:textColor="@color/textInput"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_parcelaAdapterCartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Parcela"
+            android:textColor="@color/textInput"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider43"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/background" />
+</LinearLayout>

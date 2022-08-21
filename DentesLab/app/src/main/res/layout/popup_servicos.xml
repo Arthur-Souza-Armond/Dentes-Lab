@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_fechar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/fechar_popup_btn"
+        android:padding="5dp"
+        android:text="X"
+        android:textColor="@color/Negativo"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/logodenteslabv2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:textColorHint="@color/Cor1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_nome_servico_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome serviço:"
+            android:textColor="@color/Cor1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:textColorHint="@color/Cor1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_preco_servico_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preco serviço:" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_edit_popup"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_circulado"
+        android:drawableRight="@drawable/ic_edit_24dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/btn_salvar_popup"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_circulado"
+        android:text="Salvar" />
+</LinearLayout>

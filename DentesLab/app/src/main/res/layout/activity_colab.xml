@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Colaboradores.colabInfo.COLABActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textadcEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="72dp"
+                android:text="Informações colaborador"
+                android:textColor="@color/Black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/divider47"
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/Cor1" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="35dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_nome_colab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome colaborador:" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="35dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_email_colab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email colaborador" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="35dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_telefone_colab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telefone colaborador" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="35dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_nivel_permissao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nível colaborador" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="35dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Trabalhos realizados"
+                    android:textColor="@color/Black"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <View
+                    android:id="@+id/divider48"
+                    android:layout_width="100dp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/Cor1" />
+
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                    android:id="@+id/calendarDataFeitoColab"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    ap:mcv_selectionColor="#00F"
+                    ap:mcv_showOtherDates="all"
+                    ap:mcv_tileSize="50dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_trabalhosRealizadosColab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/frame_preto">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Preços serviços"
+                    android:textColor="@color/Black"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <View
+                    android:id="@+id/divider49"
+                    android:layout_width="100dp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/Cor1" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_precosServicosColab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/frame_preto">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <Button
+                    android:id="@+id/btn_adcionarServicoColab"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="35dp"
+                    android:background="@drawable/botao_arredondado"
+                    android:text="Adcionar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearAdcionarServicoColab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Adcione serviço"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider52"
+                    android:layout_width="100dp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/Cor1" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_servicosColabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="35dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_precoServicoColab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Preco servico:"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_salvarServicoColab"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="35dp"
+                    android:background="@drawable/botao_arredondado"
+                    android:text="Salvar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "713715511712",
+    "project_id": "dentes-lab-v2",
+    "storage_bucket": "dentes-lab-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713715511712:android:797ffcbba45d9dbe44b4c5",
+        "android_client_info": {
+          "package_name": "com.example.denteslabv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713715511712-3u6ddgbldr10u9cclok2jquppeiqnjfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denteslabv2",
+            "certificate_hash": "6393aa99a5f8a1db9c00a622e30fb2b868137bb6"
+          }
+        },
+        {
+          "client_id": "713715511712-dub42vkbc3l4te6sqm0j55er0n43mdoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo8bGf78YJpA9Qyy249poKO40EwNcVthI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713715511712-dub42vkbc3l4te6sqm0j55er0n43mdoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

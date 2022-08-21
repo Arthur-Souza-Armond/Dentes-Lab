@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_principal">
+
+    <fragment
+        android:id="@+id/nav_principal"
+        android:name="com.example.denteslabv2.ui.Principal.PrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/nav_trabalhos"
+        android:name="com.example.denteslabv2.ui.Trabalhos.TrabalhosFragment"
+        android:label="@string/menu_trabalhos"
+        tools:layout="@layout/fragment_trabalhos" />
+
+    <fragment
+        android:id="@+id/nav_relatorios"
+        android:name="com.example.denteslabv2.ui.Relatórios.RelatoriosFragment"
+        android:label="@string/menu_relatorios"
+        tools:layout="@layout/fragment_relatorio" />
+    <fragment
+        android:id="@+id/nav_colaboradores"
+        android:name="com.example.denteslabv2.ui.Colaboradores.ColaboradoresFragment"
+        android:label="@string/menu_colaboradores"
+        tools:layout="@layout/fragment_colaboradores" />
+    <fragment
+        android:id="@+id/nav_RH"
+        android:name="com.example.denteslabv2.ui.RH.RHFragment"
+        android:label="@string/menu_rh"
+        tools:layout="@layout/fragment_rh" />
+
+    <fragment
+        android:id="@+id/nav_cliente"
+        android:name="com.example.denteslabv2.ui.Clientes.ClientesFragment"
+        android:label="@string/menu_clientes"
+        tools:layout="@layout/fragment_clientes" />
+    <fragment
+        android:id="@+id/nav_servicos"
+        android:name="com.example.denteslabv2.ui.Servicos.ServicosFragment"
+        android:label="@string/menu_servicos"
+        tools:layout="@layout/fragment_servicos" />
+    <fragment
+        android:id="@+id/nav_adm"
+        android:name="com.example.denteslabv2.ui.ADM1.AdmFragment"
+        android:label="@string/menu_adm"
+        tools:layout="@layout/fragment_adm" />
+    <fragment
+        android:id="@+id/nav_notas"
+        android:name="com.example.denteslabv2.ui.Trabalhos.notas.NotasFragment"
+        android:label="@string/menu_notas"
+        tools:layout="@layout/fragment_notas" />
+
+</navigation>

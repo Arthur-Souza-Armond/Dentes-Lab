@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dentes Lab v2</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_principal">Principal</string>
+    <string name="menu_trabalhos">Trabalho</string>
+    <string name="menu_relatorios">Relatório</string>
+    <string name="menu_colaboradores">Colaboradores</string>
+    <string name="menu_rh">Gestão de pessoas</string>
+    <string name="menu_entrada">Entradas</string>
+    <string name="menu_clientes">Clientes</string>
+    <string name="menu_servicos">Serviços</string>
+    <string name="menu_adm">ADM</string>
+    <string name="menu_notas">Notas</string>
+    <string name="menu_gestao">Gestao</string>
+
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

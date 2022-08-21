@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Relatórios.fragments.DespesasFixasFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Fixas"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/Cor1" />
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/calendarDatasDespesas"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                ap:mcv_selectionColor="#00F"
+                ap:mcv_showOtherDates="all"
+                ap:mcv_tileSize="50dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Rv_despesasFixas"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/frame_preto">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/btn_abrirLayoutDespesa"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/botao_arredondado"
+                android:text="Adcionar" />
+
+            <LinearLayout
+                android:id="@+id/linearAdcDespesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:text="Adcionar nova despesa fixa"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/divider18"
+                    android:layout_width="60dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@color/Cor1" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_nomeDespesaFixa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Digite o nome da despesa:" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_valorDespesaFixa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Digite o valor da despesa:"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Parcelas"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:id="@+id/divider56"
+                        android:layout_width="75dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Cor1" />
+
+                    <Button
+                        android:id="@+id/btn_adcionaParcela"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/botao_arredondado"
+                        android:text="Adcionar parcela" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="35dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_dataDeDebito"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Data de débito" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearParcelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Dia da primeira parcela"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:id="@+id/divider57"
+                        android:layout_width="100dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Cor1" />
+
+                    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                        android:id="@+id/calendarViewInicioParcelas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="35dp"
+                        ap:mcv_selectionColor="#00F"
+                        ap:mcv_showOtherDates="all"
+                        ap:mcv_tileSize="50dp" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Dia final da parcela"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:id="@+id/divider58"
+                        android:layout_width="100dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Cor1" />
+
+                    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                        android:id="@+id/calendarViewFinalParcelas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="35dp"
+                        ap:mcv_selectionColor="#00F"
+                        ap:mcv_showOtherDates="all"
+                        ap:mcv_tileSize="50dp" />
+
+                    <TextView
+                        android:id="@+id/txt_dataInicioParcela"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="35dp"
+                        android:text="Data início"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_dataFinalParcela"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="35dp"
+                        android:text="Data Final"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_adcionarDespesa"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/botao_arredondado"
+                    android:text="Adcionar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

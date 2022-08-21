@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/arredondado_adc.xml" value="0.275" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/botao_arredondado.xml" value="0.22135416666666666" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/frame_preto.xml" value="0.3828125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_clientes_24dp.xml" value="0.23125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_colaboradores_24dp.xml" value="0.23125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_fechar_notificacao_24.xml" value="0.19895833333333332" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_pagamento_mensagem_24.xml" value="0.275" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_permissao_lock_24.xml" value="0.1574074074074074" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_pesquisar_cliente_24.xml" value="0.24114583333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_pesquisar_trabalho_nota_24.xml" value="0.24114583333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_principal_24dp.xml" value="0.23125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_servicos_24dp.xml" value="0.23125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_trabalho_mensagem_24.xml" value="0.275" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_trabalhos_24dp.xml" value="0.23125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/ic_triangulo_info_24.xml" value="0.23125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/shape_linear_mensagem.xml" value="0.15885416666666666" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/drawable/side_nav_bar.xml" value="0.2375" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_adc_cliente.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_adcionar_servico_colab.xml" value="0.29739583333333336" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_apresentacao.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_colab.xml" value="0.2861111111111111" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_criar_conta.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_main_apresentacao.xml" value="0.18489583333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_nota_lab.xml" value="0.27760416666666665" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_notas.xml" value="0.33697916666666666" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_principal.xml" value="0.2443820224719101" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/activity_relatorio_cliente.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/app_bar_principal.xml" value="0.25" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/aviso_beta.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/content_principal.xml" value="0.2196969696969697" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_adm.xml" value="0.20052083333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_apre1.xml" value="0.29583333333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_apresentacao.xml" value="0.29583333333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_boletos_despesas.xml" value="0.2578125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_cartao_despesa.xml" value="0.2578125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_clientes.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_colaboradores.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_d_b_adm.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_despesas_fixas.xml" value="0.2578125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_entrada.xml" value="0.34509466437177283" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_ferramentas_a_d_m.xml" value="0.196875" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_lembretes_a_d_m.xml" value="0.196875" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_mensagem_adm.xml" value="0.196875" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_notas.xml" value="0.3296875" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_principal.xml" value="0.25" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_relatorio.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_saida.xml" value="0.29541864139020535" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_servicos.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_trabalhos.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/fragment_trabalhos_lab.xml" value="0.1984375" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/intro1.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/intro2.xml" value="0.29583333333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/intro3.xml" value="0.29583333333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/intro4.xml" value="0.29583333333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/intro5.xml" value="0.29583333333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_aapter_feitos_colab.xml" value="0.25" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_fixas.xml" value="0.28940217391304346" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_movimentacao.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_no2_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_no_1.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_precos_colab.xml" value="0.2734375" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_tabela_cliente.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_adapter_trabalhos_c.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_clientes_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_clientes_notinhas.xml" value="0.2921875" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_colabs_adapter.xml" value="0.20052083333333334" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_despesas_cartao.xml" value="0.30833333333333335" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_mensagens_adapter.xml" value="0.29375" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_servicos_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/lista_trabalhos_adapter.xml" value="0.27760416666666665" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/menu_notinha.xml" value="0.225" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/nav_header_principal.xml" value="0.23835616438356164" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/navigation_bottom.xml" value="0.1" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_adc_fixa.xml" value="0.1" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_adc_movi.xml" value="0.1" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_criar_conta.xml" value="0.36666666666666664" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_editar_servico.xml" value="0.2537037037037037" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_enviar_mensagem_antiga.xml" value="0.2578125" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_movi_adc.xml" value="0.1" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_trabalhos.xml" value="0.33" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/layout/popup_trabalhos_cliente.xml" value="0.25" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/menu/activity_principal_drawer.xml" value="0.22135416666666666" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/menu/menu_navigation_bottom.xml" value="0.22135416666666666" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/menu/menu_notinha_saida.xml" value="0.225" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/menu/principal.xml" value="0.22135416666666666" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15833333333333333" />
+        <entry key="..\:/asarm/Local/AndroidStudioProjects/DentesLabv2/app/src/main/res/xml/provider_paths.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20052083333333334" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

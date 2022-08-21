@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item android:title="Principal">
+        <menu>
+            <item
+                android:id="@+id/nav_principal"
+                android:icon="@drawable/ic_principal_24dp"
+                android:title="@string/menu_principal" />
+            <item
+                android:id="@+id/nav_colaboradores"
+                android:icon="@drawable/ic_colaboradores_24dp"
+                android:title="@string/menu_colaboradores" />
+            <item
+                android:id="@+id/nav_cliente"
+                android:icon="@drawable/ic_clientes_24dp"
+                android:title="@string/menu_clientes"
+                />
+        </menu>
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Laboratório">
+            <menu>
+                <item
+                    android:id="@+id/nav_trabalhos"
+                    android:icon="@drawable/ic_trabalhos_24dp"
+                    android:title="@string/menu_trabalhos" />
+                <item
+                    android:id="@+id/nav_notas"
+                    android:icon="@drawable/ic_notas_24"
+                    android:title="@string/menu_notas" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Financeiro e Gestão">
+            <menu>
+                <item
+                    android:id="@+id/nav_relatorios"
+                    android:icon="@drawable/ic_relatorio_24dp"
+                    android:title="@string/menu_gestao" />
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="ADM">
+            <menu>
+                <item
+                    android:id="@+id/nav_adm"
+                    android:icon="@drawable/ic_adm_24"
+                    android:title="@string/menu_adm"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

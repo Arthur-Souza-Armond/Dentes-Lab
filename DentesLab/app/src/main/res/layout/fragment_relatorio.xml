@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Cor5"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/viewPagerGestao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gestão Lab"
+            android:textColor="@color/textInput"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider17"
+            android:layout_width="75dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/Cor1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_fixosGestao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botao_arredondado"
+                android:text="Despesas" />
+
+            <Button
+                android:id="@+id/btn_cartaoGestao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botao_arredondado"
+                android:text="Resultados" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

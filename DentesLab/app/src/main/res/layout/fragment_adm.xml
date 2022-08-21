@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ADM1.AdmFragment"
+    tools:layout_editor_absoluteX="6dp"
+    tools:layout_editor_absoluteY="2dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearBloq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_lock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Você não tem permissão para utilizar essa aba"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:text="ADM - DEV"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <Button
+                    android:id="@+id/btn_mensagemAdm"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/btn_circulado"
+                    android:drawableTop="@android:drawable/ic_menu_edit"
+                    android:padding="10dp"
+                    android:text="Menssage"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_dbAdm"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_dbAdm"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/btn_circulado"
+                    android:drawableTop="@drawable/ic_bancdo_de_dados_24"
+                    android:padding="10dp"
+                    android:text="Banco de dados"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/btn_mensagemAdm"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_ferramentasAdm"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_circulado"
+                    android:drawableTop="@drawable/ic_tools_24"
+                    android:padding="10dp"
+                    android:text="Ferramentas"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_mensagemAdm" />
+
+                <Button
+                    android:id="@+id/btn_lembretesAdm"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_circulado"
+                    android:drawableTop="@drawable/ic_notas_24"
+                    android:padding="10dp"
+                    android:text="Lembretes"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/btn_ferramentasAdm"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_dbAdm" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/viewPagerAdm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
