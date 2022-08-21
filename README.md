@@ -24,4 +24,5 @@ I accepted this project to learn more about the java language and get more famil
 
 I'll add some images below so you can see what the app layout looks like. There was still a lot to improve in terms of UI/UX designer, but it was good to learn more.
 
-Login:
+
+Application video:
